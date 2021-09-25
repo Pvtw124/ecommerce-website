@@ -1,0 +1,154 @@
+/*
+	Admin page css
+	airbnb is inspiration for UI
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+*{
+	margin: 0;
+	padding: 0;
+	font-family: 'Montserrat', sans-serif;
+	background-color: #FAF9F6;
+}
+
+.inherit-color{
+    background-color: inherit;
+}
+
+.wrapper{
+	padding: 1%;
+	width: 80%;
+	margin: 0 auto;
+}
+.clearfix{
+	float: none;
+	clear: both;
+}
+
+.text-center{
+	text-align: center;
+}
+
+.tbl-full{
+	width: 100%;
+}
+
+.tbl-30{
+	width: 30%;
+}
+
+table tr th{
+	border-bottom: 1px solid black;
+	padding: 1%;
+	text-align: left;
+}
+
+table tr td{
+	padding: 1%;
+}
+
+.btn-primary{
+	background-color: white; /* old geranium */
+	padding: 1%;
+	color: black;
+	text-decoration: none;
+	border-style: solid;
+	border-radius: 2em;
+	border-color: grey;
+	border-width: thin;
+}
+
+.btn-primary:hover{
+	border-color: black;
+}
+
+.btn-secondary{
+	background-color: white; /* old geranium */
+	padding: 2%;
+	color: black;
+	text-decoration: none;
+	border-style: solid;
+	border-radius: 2em;
+	border-color: grey;
+	border-width: thin;
+}
+
+.btn-secondary:hover{
+	border-color: black;
+}
+
+.success{
+	color: green;
+}
+
+.error{
+	color: red;
+}
+
+/* CSS for Menu */
+.menu ul{
+	list-style-type: none;	
+}
+
+.menu ul li{
+	display: inline;
+	padding: 1%;
+}
+
+.menu ul li a{
+	text-decoration: none;
+	font-weight: bold;
+	color: #778beb; /* soft blue */
+}
+
+.menu ul li a:hover{
+	color: #546de5; /* cornflower */
+}
+
+.menu{
+	border-bottom: 1px solid grey;
+}
+
+/* CSS for main-content */
+.main-content{
+	/*background-color: #FAF9F6; */
+	padding: 3% 0;
+}
+
+.main-content td{
+	font-size: .9em;
+}
+
+.col-4{
+	width: 17%;
+	background-color: white;
+	margin: 1%;
+	padding: 2%;
+	float: left;
+}
+
+/* CSS for Footer */
+.footer{
+	background-color: #546de5; /* cornflower */
+	color: white;
+}
+
+/* CSS for Login */
+.login{
+	border: 1px solid grey;
+	width: 20%;
+	margin: 10% auto;
+	padding: 2%;
+}
+
+.sticky{
+    position: -webkit-sticky;
+    position: sticky;
+    top: 100vh;
+}
+
+
+
+
+

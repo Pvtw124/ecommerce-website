@@ -1,0 +1,192 @@
+/*
+	Public facing website css 
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+body{
+    margin: 0px;
+}
+
+.container{
+    width: 100vw;
+    max-width: 100%;
+    font-family: 'Montserrat', sans-serif; 
+   /* font-family: Arial, sans-serif */
+    /*font-family: "Times New Roman", serif; */
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 100px 500px 600px 700px 200px; 
+}
+
+/* Header */
+
+.logo{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    text-align: center;
+}
+
+.search-cart{
+    grid-column-start: 2;
+    grid-column-end: 5;
+}
+
+.logo ul{
+    list-style-type: none;
+    overflow: hidden;
+}
+
+.search-cart ul{
+    list-style-type: none;
+    overflow: hidden;
+}
+
+.logo li{
+    float: left;
+    padding: 10px;
+    font-weight: bold;
+}
+.search-cart li{
+    float: right;
+    padding: 5px;
+}
+
+.logo ul li a{
+    text-decoration: none;
+    color: grey;
+}
+
+.search-cart ul li a{
+    text-decoration: none;
+    color: grey;
+}
+
+.logo ul li a:hover{
+    color: black;
+}
+
+/* Shop all Products */
+.by-product{
+    background-color: #add8e6;
+    grid-column-start: 1;
+    grid-column-end: 5;
+    background-image:url(../images/front/sticker-table.jpeg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.bottom-left{
+    padding-top: 300px;
+    padding-left: 50px;
+}
+
+.by-category{
+    grid-column-start: 1;
+    grid-column-end: 5;
+    background-color: #a8c0fc;
+}
+
+.scroll-wrapper{
+    border: 1px solid #ddd;
+    display: flex;
+    overflow-x: auto;
+}
+
+.wrapper::-webkit-scrollbar{
+    width: 0;
+}
+
+.scroll-wrapper .item{
+    min-width: 400px;
+    height: 700px;
+    line-height: 110px;
+    text-align: center;
+    background-color: #ddd;
+    margin-right: 2px;
+}
+
+.scroll-wrapper {
+  -webkit-overflow-scrolling: touch;
+}
+
+
+
+/*
+.by-category-1{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    background-color: #a8c0fc;
+}
+
+.by-category-2{
+    grid-column-start: 3;
+    grid-column-end: 5;
+    background-color: #d7e5e5;
+}
+*/
+.bottom-center{
+    text-align: center;
+    padding-top: 50vh;
+}
+
+.between{
+    grid-column-start: 1;
+    grid-column-end: 5;
+    text-align: center;
+}
+
+.message{
+    width: 80vw;
+    height: 350px;
+    margin: 80px auto;
+    background-color: #EFCFD4;
+}
+.message p{
+    padding-top: 120px;
+}
+
+.category-label{
+    padding-top: 15px;
+    font-weight: bold;
+    font-size: 1.8rem;
+    letter-spacing: 0.08rem;
+}
+
+.center {
+    text-align: center;
+    padding-top: 50px; 
+}
+
+.footer{
+    grid-column-start: 1;
+    grid-column-end: 5;
+    background-color: #F1F1F1;
+}
+
+/* Buttons */
+
+.btn{
+    background-color: white;
+    color: black;
+    border: solid #666666;
+    border-width: .1rem;
+    border-radius: 2rem;
+    font-size: 0.8rem;
+    letter-spacing: 0.08rem;
+    width: 185px;
+    height: 60px;
+}
+
+.btn:hover{
+    border-color: black;
+}
+
+
+
+
+
+
+
